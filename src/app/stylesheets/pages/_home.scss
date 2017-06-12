@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.content{
+  display: flex;
+  text-align: center;
+  background-color: $primary-color;
+}
+
+.txt-lg{
+  color: $secondary-color;
+  font-size: 32px;
+}
+
+.txt-md{
+  color: $secondary-color;
+  font-size: 20px;
+}
+
+.txt-xs{
+  color: $secondary-color;
+  font-size: 12px;
+}
+
+.container-logo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+
+.arrow-forward{
+  display: flex;
+  justify-content: flex-end;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: $footer-color;
+}
