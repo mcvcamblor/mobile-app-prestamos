@@ -2,11 +2,14 @@ import { Component } from '@angular/core';
 import { FarewellPage} from '../farewell/farewell';
 import { NavController } from 'ionic-angular';
 
+
 @Component({
-  selector: 'page-personal-data-validation',
-  templateUrl: 'personal-data-validation.html'
+  selector: 'page-take-sign',
+  templateUrl: 'take-sign.html
 })
-export class PersonalDataValidationPage {
+export class TakeSignPage {
+
+
 
   constructor(public navCtrl: NavController) {
 

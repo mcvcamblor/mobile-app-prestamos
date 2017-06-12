@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PersonalDataValidationPage } from '../personal-data-validation/personal-data-validation';
+import { TakeSelfiePage } from '../take-selfie/take-selfie';
 import { NavController } from 'ionic-angular';
 
 @Component({
@@ -13,8 +13,8 @@ export class PersonalDataPage {
 
   }
 
-goToPersonalDataValidationPage (){
-    this.navCtrl.push(PersonalDataValidationPage)
+goToTakeSelfie(){
+    this.navCtrl.push(TakeSelfiePage)
   }
 
 }
