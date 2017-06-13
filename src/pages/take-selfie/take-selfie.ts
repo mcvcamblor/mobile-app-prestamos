@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { OfferInfo} from '../offer-info/offer-info';
+import { OfferInfoPage} from '../offer-info/offer-info';
 import { NavController } from 'ionic-angular';
 
 @Component({

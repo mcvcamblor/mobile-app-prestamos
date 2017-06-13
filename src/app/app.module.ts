@@ -3,11 +3,15 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-
 import { MyApp } from './app.component';
+
 import { HomePage } from '../pages/home/home';
 import { PersonalDataPage} from '../pages/personal-data/personal-data';
-import { PersonalDataValidationPage } from '../pages/personal-data-validation/personal-data-validation';
+import { UndefinedPagePage} from '../pages/undefined-page/undefined-page';
+import { OfferInfoPage} from '../pages/offer-info/offer-info';
+import { ChooseOffersPage} from '../pages/choose-offers/choose-offers';
+import { TakeSignPage} from '../pages/take-sign/take-sign';
+import { TakeSelfiePage} from '../pages/take-selfie/take-selfie';
 import { FarewellPage} from '../pages/farewell/farewell';
 
 
@@ -17,7 +21,11 @@ import { FarewellPage} from '../pages/farewell/farewell';
     MyApp,
     HomePage,
     PersonalDataPage,
-    PersonalDataValidationPage,
+    TakeSelfiePage,
+    OfferInfoPage,
+    UndefinedPagePage,
+    ChooseOffersPage,
+    TakeSignPage,
     FarewellPage,
 
   ],
@@ -27,11 +35,16 @@ import { FarewellPage} from '../pages/farewell/farewell';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    HomePage,
-    PersonalDataPage,
-    PersonalDataValidationPage,
-    FarewellPage,
+  MyApp,
+  HomePage,
+  PersonalDataPage,
+  TakeSelfiePage,
+  OfferInfoPage,
+  UndefinedPagePage,
+  ChooseOffersPage,
+  TakeSignPage,
+  FarewellPage,
+
   ],
   providers: [
     StatusBar,

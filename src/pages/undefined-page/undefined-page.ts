@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-undefined-page',
-  templateUrl: 'undefined-page.html
+  templateUrl: 'undefined-page.html'
 })
 export class UndefinedPagePage {
 

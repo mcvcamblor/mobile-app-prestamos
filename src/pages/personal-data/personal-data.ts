@@ -13,7 +13,7 @@ export class PersonalDataPage {
 
   }
 
-goToTakeSelfie(){
+goToTakeSelfiePage(){
     this.navCtrl.push(TakeSelfiePage)
   }
 

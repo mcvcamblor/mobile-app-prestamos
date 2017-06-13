@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-take-sign',
-  templateUrl: 'take-sign.html
+  templateUrl: 'take-sign.html'
 })
 export class TakeSignPage {
 
