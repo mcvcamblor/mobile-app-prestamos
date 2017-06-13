@@ -7,38 +7,54 @@
   <div class="form-new-process" fxLayout="row">
 
     <div class="title-new-process">
-      <p class="txt-lg">Start a new process!</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <p class="txt-lg">Confirm your information</p>
+      <p>
+        The merchant has given us this information about you. Please confirm that it's correct
       </p>
     </div>
 
     <ion-list>
       <ion-item>
-        <ion-label stacked>Ask for the name</ion-label>
+        <ion-label stacked>Enter a first name</ion-label>
         <ion-input type="text"></ion-input>
+        <ion-toggle disabled checked="false"></ion-toggle>
       </ion-item>
       <ion-item>
-        <ion-label stacked>Ask for the last name</ion-label>
+        <ion-label stacked>Enter a last name</ion-label>
         <ion-input type="text"></ion-input>
+        <ion-toggle disabled checked="false"></ion-toggle>
       </ion-item>
       <ion-item>
-        <ion-label stacked>Ask for the email</ion-label>
+        <ion-label stacked>Enter your email</ion-label>
         <ion-input type="email"></ion-input>
+        <ion-toggle disabled checked="false"></ion-toggle>
       </ion-item>
       <ion-item>
         <ion-label stacked>Enter a phone number</ion-label>
         <ion-input type="text"></ion-input>
+        <ion-toggle disabled checked="false"></ion-toggle>
       </ion-item>
       <ion-item>
         <ion-label stacked>Enter other phone number</ion-label>
         <ion-input type="text"></ion-input>
+        <ion-toggle disabled checked="false"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Amount requested</ion-label>
+        <ion-input type="text"></ion-input>
+        <ion-toggle disabled checked="false"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Loan purpose</ion-label>
+        <ion-input type="text"></ion-input>
+        <ion-toggle disabled checked="false"></ion-toggle>
       </ion-item>
     </ion-list>
   </div>
 
   <div class="">
 
-    <ion-list>
+    <!-- <ion-list>
       <ion-item>
         <ion-avatar item-start>
           <img src="img/avatar-cher.png">
@@ -46,7 +62,19 @@
         <h2>Cher</h2>
         <p>Ugh. As if.</p>
       </ion-item>
-    </ion-list>
+    </ion-list> -->
+
+    <ion-slides>
+      <ion-slide>
+        <h1>Slide 1</h1>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 2</h1>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 3</h1>
+      </ion-slide>
+    </ion-slides>
 
   </div>
 
