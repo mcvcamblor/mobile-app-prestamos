@@ -3,8 +3,8 @@
 // -----------------------------------------------------------------------------
 .header-personal-data {
   background-color: $footer-color;
-  
-icon-button{
+
+  icon-button {
     display: none;
   }
 
@@ -12,4 +12,13 @@ icon-button{
     background-color: $footer-color;
   }
 
+}
+
+.bar-header {
+  background-color: $footer-color;
+  width: 20em;
+}
+
+.container-logo-header {
+  width: 5em;
 }

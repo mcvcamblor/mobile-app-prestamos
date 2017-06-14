@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
 .footer {
   align-content: space-between;
   display: flex;
@@ -13,6 +14,11 @@
   p {
     display: flex;
     margin-left: 40%;
-
   }
+}
+
+.footer {
+  background-color: $footer-color;
+  display: flex;
+  flex-direction: column;
 }
