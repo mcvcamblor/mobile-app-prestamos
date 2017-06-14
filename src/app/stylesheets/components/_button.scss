@@ -1,3 +1,17 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.ios-close-grey {
+  border-radius: 3em;
+  box-shadow: 0 0 0.375em 0 $box-shadow, 0 6px 6px 0;
+  height: 3.5em;
+  margin-left: 80%;
+  margin-right: auto;
+  margin-bottom: 40%;
+  position: absolute, 18.938em, 30.875em;
+  width: 3.5em;
+  z-index: 10000;
+  padding-bottom: 1.25em;
+
+
+}
