@@ -1,3 +1,15 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.header-personal-data {
+  background-color: $footer-color;
+  
+icon-button{
+    display: none;
+  }
+
+  button {
+    background-color: $footer-color;
+  }
+
+}
