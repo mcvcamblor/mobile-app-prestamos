@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.footer {
+  align-content: space-between;
+  display: flex;
+
+  ion-icon {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  p {
+    display: flex;
+    margin-left: 40%;
+
+  }
+}

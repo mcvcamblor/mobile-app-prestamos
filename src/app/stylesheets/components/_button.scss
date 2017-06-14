@@ -2,16 +2,22 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 .ios-close-grey {
+  background-color: $background-color-buttons-cross;
   border-radius: 3em;
-  box-shadow: 0 0 0.375em 0 $box-shadow, 0 6px 6px 0;
+  box-shadow: 0 10px 25px -13px $box-shadow;
   height: 3.5em;
-  margin-left: 80%;
-  margin-right: auto;
-  margin-bottom: 40%;
-  position: absolute, 18.938em, 30.875em;
+  left: 17.8em;
+  position: absolute;
+  top: 15.5em;
   width: 3.5em;
   z-index: 10000;
-  padding-bottom: 1.25em;
 
-
+  .ios-close {
+    align-items: center;
+    color: $secondary-color;
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    width: 2em;
+  }
 }

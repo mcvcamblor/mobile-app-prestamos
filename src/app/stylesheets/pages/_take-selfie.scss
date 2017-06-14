@@ -1,9 +1,27 @@
 .extra-info-selfie {
   align-items: flex-start;
   display: flex;
+
+  p {
+    margin: 0;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    text-align: justify;
+
+  }
 }
 
 .container-selfie-page {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
+  p {
+    width: 100%;
+  }
+
+}
+
+.selfie {
+  padding-top: 2em;
 }
