@@ -1,3 +1,8 @@
+.colInfo {
+  display: flex;
+  flex-direction: column;
+}
+
 .containerLender{
   display: flex;
   justify-content: center;
@@ -9,18 +14,6 @@
 
 .iconInfo{
   color: $primary-color;
-  margin-right: 8px;
-}
-
-.rowInfo {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-
-.colInfo {
-  display: flex;
-  flex-direction: column;
 }
 
 .infoBox{
@@ -38,11 +31,17 @@
 }
 
 .moreInfo{
-  width: 30%;
+  // width: 30%;
 }
 
 .noInfo{
-  width: 30%;
+  // width: 30%;
+}
+
+.rowInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .tx-underlined{

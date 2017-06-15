@@ -3,11 +3,9 @@
 // -----------------------------------------------------------------------------
 
 .footer {
-  align-content: space-between;
-  display: flex;
   background-color: $footer-color;
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
 
   ion-icon {
     display: flex;
