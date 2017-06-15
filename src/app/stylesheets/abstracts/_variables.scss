@@ -12,7 +12,8 @@
 $primary-color: #232e78;
 $secondary-color: #ffffff;
 $footer-color: #ffba3b;
-
+$box-shadow: rgba(0, 0, 0, 0.9);
+$background-color-buttons-cross: #bdbdbd;
 
 
 
@@ -27,7 +28,7 @@ $footer-color: #ffba3b;
 // Functional colours
 // $minus: #f00;
 // $plus: #349651;
-$info-color:#19679b;
+$info-color: #19679b;
 
 // Social Networks
 // $fb: rgb(59, 89, 182);
@@ -66,11 +67,9 @@ $breakpoints: (
 
 
 
-
-
 //
-//  Typography
-//  This are the typography sizes used in the styleguide
+// Typography
+// This are the typography sizes used in the styleguide
 //
 $primaryfont: 'Roboto', 'Times New Roman', serif;
 
@@ -79,9 +78,9 @@ $primaryfont: 'Roboto', 'Times New Roman', serif;
 
 
 //
-//  Other variables
-//  This variables that have not place to live
+// Other variables
+// This variables that have not place to live
 //
 $border-radius: 4px;
 $grid-gutter: 15px; // (15px on each side of a column)
-$time: .15s; // Used as transition-duration in transition longhand
+$time: 0.15s; // Used as transition-duration in transition longhand

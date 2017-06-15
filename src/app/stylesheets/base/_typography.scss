@@ -12,4 +12,18 @@
   color: black;
   display: flex;
   justify-content: flex-start;
+
+.txt-lg {
+  color: $secondary-color;
+  font-size: 32px;
+}
+
+.txt-xs {
+  color: $secondary-color;
+  font-size: 12px;
+}
+
+.txt-lg {
+  color: $secondary-color;
+  font-size: 20px;
 }

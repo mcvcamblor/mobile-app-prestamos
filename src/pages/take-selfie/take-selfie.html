@@ -1,37 +1,25 @@
-<ion-header class="header-personal-data-validation">
-  <ion-navbar class="header-personal-data-validation"></ion-navbar>
+<ion-header class="header-personal-data">
+  <ion-navbar class="header-personal-data"></ion-navbar>
 </ion-header>
 
-<ion-content class="background-personal-data-validation" padding>
+<ion-content class="container-selfie-page background-personal-data" padding>
 
   <p class="txt-md">Take a selfie</p>
-
-  <ion-icon name="md-information-circle"></ion-icon>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+  <div class="extra-info-selfie">
+    <ion-icon class="ios-information-circle" name="ios-information-circle"></ion-icon>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
     <!-- CUADRADO DE SELFIE -->
-
-  <ion-slides>
-    <ion-slide>
-      <h1>Slide 1</h1>
-    </ion-slide>
-    <ion-slide>
-      <h1>Slide 2</h1>
-    </ion-slide>
-    <ion-slide>
-      <h1>Slide 3</h1>
-    </ion-slide>
-  </ion-slides>
-
+    <div class="selfie">
+      <div class="selfie-container">
+        <div class="ios-close-grey"><ion-icon class="ios-close" name="ios-close"></ion-icon>
+      </div>
+    </div>
+    </div>
 </ion-content>
 <ion-footer>
 
-  <button class="footer" ion-button (click)="goToOfferInfoPage()" icon-rightcolor="royal">
-
-    <p class="txt-sm">Continue</p>
+  <button class="footer" ion-button (click)="goToOfferInfoPage()" icon-rightcolor="royal"><p class="txt-sm">Continue</p>
     <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
   </button>
 </ion-footer>
