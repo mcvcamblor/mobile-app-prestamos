@@ -2,48 +2,68 @@
   <ion-navbar class="header-personal-data"></ion-navbar>
 </ion-header>
 
-<ion-content class="content" padding>
-  <p class="txt-lg">The last step!</p>
+<ion-content class="contentOfferInfo" padding>
+  <p class="txt-lg-OfferInfo">The last step!</p>
 
-  <ion-icon name="md-information-circle"></ion-icon>
-  <p>To give you the best lead we need to collect more information about you...</p>
-  <p>This step is not necessaty, but will help us.</p>
+  <div class="">
+    <div class="infoBox">
+      <div class="infoBox-content">
+        <div class="rowInfo">
+          <div class="colInfo">
+            <ion-icon class="iconInfo" name="md-information-circle"></ion-icon>
+          </div>
+          <div class="colInfo">
+            <p class="txt-md-OfferInfo">To give you the best lead we need to collect more information about you...</p>
+            <p class="txt-md-OfferInfo">This step is not necessary, but will help us.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <p>With more info</p>
-  <ion-card>
-  <ion-card-header>
-    <ion-icon name="logo-euro"></ion-icon>
-    Lender 1
-  </ion-card-header>
-  <ion-card-content>
-    <p>Cuota: 138€</p>
-    <p>TAE: 10%</p>
-    <p>Plazo: 6 meses</p>
-    <p>TOTAL: 828€</p>
-  </ion-card-content>
-</ion-card>
 
-<p>Without info</p>
-<ion-card>
-<ion-card-header>
-  <ion-icon name="logo-euro"></ion-icon>
-  Lender 1
-</ion-card-header>
-<ion-card-content>
-  <p>Cuota: 138€</p>
-  <p>TAE: 10%</p>
-  <p>Plazo: 6 meses</p>
-  <p>TOTAL: 828€</p>
-</ion-card-content>
-</ion-card>
 
-  <p class="tx-underlined">Avoid this step</p>
+  <div class="containerLender">
+    <div class="moreInfo">
+      <a href="#" class="linkInfo">With more info</a>
+      <ion-card>
+        <ion-card-header>
+          <ion-icon name="logo-euro"></ion-icon>
+          Lender 1
+        </ion-card-header>
+        <ion-card-content>
+          <p>Cuota: 138€</p>
+          <p>TAE: 10%</p>
+          <p>Plazo: 6 meses</p>
+          <p>TOTAL: 828€</p>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div class="noInfo">
+      <a href="#" class="linkInfo">Without info</a>
+      <ion-card>
+        <ion-card-header>
+          <ion-icon name="logo-euro"></ion-icon>
+          Lender 1
+        </ion-card-header>
+        <ion-card-content>
+          <p>Cuota: 138€</p>
+          <p>TAE: 10%</p>
+          <p>Plazo: 6 meses</p>
+          <p>TOTAL: 828€</p>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+
+  <a href="#" class="tx-underlined">Avoid this step</a>
 
 </ion-content>
 
 <ion-footer>
   <button class="footer" ion-button (click)="goToUndefinedPagePage()" icon-rightcolor="royal">
-        <p class="txt-sm">I accept give Lendnetics access to collect more info</p>
-        <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
-      </button>
+    <p class="txt-sm">I accept give Kubide access to collect more info</p>
+    <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
+  </button>
 </ion-footer>

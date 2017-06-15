@@ -1,0 +1,51 @@
+.containerLender{
+  display: flex;
+  justify-content: center;
+}
+
+.contentOfferInfo{
+  background-color: $secondary-color;
+}
+
+.iconInfo{
+  color: $primary-color;
+  margin-right: 8px;
+}
+
+.rowInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.colInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoBox{
+  display:flex;
+  justify-content: center;
+}
+
+.infoBox-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.linkInfo{
+  text-decoration: none;
+}
+
+.moreInfo{
+  width: 30%;
+}
+
+.noInfo{
+  width: 30%;
+}
+
+.tx-underlined{
+display: flex;
+justify-content: flex-end;
+}
