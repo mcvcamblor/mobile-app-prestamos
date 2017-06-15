@@ -3,8 +3,21 @@
   max-width: 375px;
 }
 
-.content {
+.content-start-end {
   background-color: $primary-color;
   display: flex;
   text-align: center;
+}
+
+.content-middle{
+  background-color: $secondary-color;
+}
+
+.arrow-forward{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-color{
+  color: $info-color;
 }
