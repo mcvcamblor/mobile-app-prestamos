@@ -1,6 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains typography style for copy text
 // -----------------------------------------------------------------------------
+.txt-lg-OfferInfo{
+  font-size: 24px;
+  color: black;
+}
+
+
+.txt-md-OfferInfo{
+  font-size: 1.4rem;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+
 .txt-lg {
   color: $secondary-color;
   font-size: 32px;
