@@ -2,86 +2,117 @@
   <ion-navbar class="header-personal-data"></ion-navbar>
 </ion-header>
 
-<ion-content class="content-middle" padding>
 
-  <div class="form-new-process" fxLayout="row">
 
-    <div class="title-new-process">
-      <p class="txt-lg">Confirm your information</p>
-      <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
-      <p>
-        The merchant has given us this information about you. Please confirm that it's correct
-      </p>
+<ion-content class="background-personal-data content" padding>
+
+ <ion-slides pager>
+
+<div class="content-slides">
+
+     <div class="form-new-process" fxLayout="row">
+
+       <p class="txt-lg">Confirm your information</p>
+
+       <div class="title-new-process  info-box-style">
+         <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
+         <p>The merchant has given us this information about you. Please confirm that it's correct</p>
+       </div>
+
+
+      </div>
+
+
+   <div class="slide1">
+      <ion-list>
+
+       <ion-item class="content-toggle">
+            <ion-label stacked>Enter a first name</ion-label>
+            <ion-input type="text"></ion-input>
+            <span item-end class="confirmeItem" id="span-toggle">Confirm</span>
+            <ion-toggle class="confirmeItem" id="ion-toggle" checked="false"></ion-toggle>
+        </ion-item>
+
+       <ion-item class="content-toggle">
+          <ion-label stacked>Enter a last name</ion-label>
+          <ion-input type="text"></ion-input>
+          <span item-end class="confirmeItem">Confirm</span>
+          <ion-toggle class="confirmeItem" checked="false"></ion-toggle>
+        </ion-item>
+
+        <ion-item class="content-toggle">
+          <ion-label stacked>Enter your email</ion-label>
+          <ion-input type="email"></ion-input>
+          <span item-end class="confirmeItem">Confirm</span>
+          <ion-toggle class="confirmeItem" checked="false"></ion-toggle>
+        </ion-item>
+
+       <ion-item class="content-toggle">
+          <ion-label stacked>Enter a phone number</ion-label>
+          <ion-input type="text"></ion-input>
+          <span item-end class="confirmeItem">Confirm</span>
+          <ion-toggle class="confirmeItem" checked="false"></ion-toggle>
+        </ion-item>
+
+       <ion-item class="content-toggle">
+          <ion-label stacked>Enter other phone number</ion-label>
+          <ion-input type="text"></ion-input>
+          <span item-end class="confirmeItem">Confirm</span>
+          <ion-toggle class="confirmeItem" checked="false"></ion-toggle>
+        </ion-item>
+
+       <ion-item class="content-toggle">
+          <ion-label stacked>Amount requested</ion-label>
+          <ion-input type="text"></ion-input>
+          <span item-end class="confirmeItem">Confirm</span>
+          <ion-toggle class="confirmeItem" checked="false"></ion-toggle>
+        </ion-item>
+
+       <ion-item class="content-toggle">
+          <ion-label stacked>Loan purpose</ion-label>
+          <ion-input type="text"></ion-input>
+          <span item-end class="confirmeItem">Confirm</span>
+          <ion-toggle class="confirmeItem" checked="false"></ion-toggle>
+        </ion-item>
+      </ion-list>
     </div>
-
-    <ion-list>
-      <ion-item>
-        <ion-label stacked>Enter a first name</ion-label>
-        <ion-input type="text"></ion-input>
-        <div class="checkboxItems">
-          <ion-toggle checked="false"></ion-toggle>
-          <button ion-button clear item-start checked="false">View</button>
-        </div>
-
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Enter a last name</ion-label>
-        <ion-input type="text"></ion-input>
-        <ion-toggle checked="false"></ion-toggle>
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Enter your email</ion-label>
-        <ion-input type="email"></ion-input>
-        <ion-toggle checked="false"></ion-toggle>
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Enter a phone number</ion-label>
-        <ion-input type="text"></ion-input>
-        <ion-toggle checked="false"></ion-toggle>
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Enter other phone number</ion-label>
-        <ion-input type="text"></ion-input>
-        <ion-toggle checked="false"></ion-toggle>
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Amount requested</ion-label>
-        <ion-input type="text"></ion-input>
-        <ion-toggle checked="false"></ion-toggle>
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Loan purpose</ion-label>
-        <ion-input type="text"></ion-input>
-        <ion-toggle checked="false"></ion-toggle>
-      </ion-item>
-    </ion-list>
+</div>
+    <ion-slide class="ion-slide"></ion-slide>
 
 
-  </div>
 
-  <div class="">
 
-    <ion-slides>
-      <ion-slide>
-        <h1>Slide 1</h1>
-      </ion-slide>
-      <ion-slide>
-        <h1>Slide 2</h1>
-      </ion-slide>
-      <ion-slide>
-        <h1>Slide 3</h1>
-      </ion-slide>
-    </ion-slides>
-.
-  </div>
+   <ion-slide></ion-slide>
+
+
+
+
+   <ion-slide></ion-slide>
+  </ion-slides>
 
 </ion-content>
 
+
 <ion-footer>
-
   <button class="footer" ion-button (click)="goToTakeSelfiePage()" icon-rightcolor="royal">
-
     <p class="txt-sm">Continue</p>
     <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
   </button>
 </ion-footer>
+
+
+
+<script type="text/javascript">
+
+var toggleCheck = document.querySelector('#ion-toggle');
+  function activeToggle() {
+    console.log('foo');
+    if (toggleCheck.classList.contains('toggle-checked')) {
+      document.querySelector('#span-toggle').innerHTML = "Comfirmed!";
+    } else {
+      document.querySelector('#span-toggle').innerHTML = "Comfirm";
+    }
+  }
+  toggleCheck.addEventListener("click", activeToggle);
+
+</script>
