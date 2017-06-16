@@ -3,7 +3,7 @@
 </ion-header>
 
 <ion-content class="content-middle" padding>
-  <p class="txt-lg">The last step!</p>
+  <p class="txt-md">The last step!</p>
 
   <div class="">
     <div class="infoBox">
@@ -13,8 +13,8 @@
             <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
           </div>
           <div class="colInfo">
-            <p class="txt-md">To give you the best lead we need to collect more information about you...</p>
-            <p class="txt-md">This step is not necessary, but will help us.</p>
+            <p class="txt-xs">To give you the best lead we need to collect more information about you...</p>
+            <p class="txt-xs">This step is not necessary, but will help us.</p>
           </div>
         </div>
       </div>
@@ -63,7 +63,9 @@
 
 <ion-footer>
   <button class="footer" ion-button (click)="goToUndefinedPagePage()" icon-rightcolor="royal">
-    <p class="txt-sm">I accept give Kubide access to collect more info</p>
-    <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
+    <div class="">
+      <p class="txt-sm">I accept give Kubide access to collect more info</p>
+      <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
+    </div>
   </button>
 </ion-footer>

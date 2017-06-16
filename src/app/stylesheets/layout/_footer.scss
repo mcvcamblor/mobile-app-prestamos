@@ -5,16 +5,11 @@
 .footer {
   background-color: $footer-color;
   display: flex;
-  // flex-direction: column;
-
-  ion-icon {
-    display: flex;
-    flex-grow: 1;
-  }
+  width: 100%;
 
   p {
-    display: flex;
-    margin-left: 10%;
+   flex-grow: 1;
+   flex-shrink: 1;
   }
 }
 
@@ -28,6 +23,7 @@
   text-transform: uppercase;
 }
 
-.button-md:hover {
+.button-md:hover,
+.button-md:hover:not(.disable-hover) {
   background-color: $footer-color;
 }
