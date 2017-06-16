@@ -28,10 +28,7 @@
   text-transform: uppercase;
 }
 
-.button-md:hover {
-  background-color: $footer-color;
-}
-
+.button-md:hover,
 .button-md:hover:not(.disable-hover) {
   background-color: $footer-color;
 }
