@@ -31,3 +31,7 @@
 .button-md:hover {
   background-color: $footer-color;
 }
+
+.button-md:hover:not(.disable-hover) {
+  background-color: $footer-color;
+}
