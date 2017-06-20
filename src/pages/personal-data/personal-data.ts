@@ -15,8 +15,6 @@ export class PersonalDataPage {
     document.addEventListener('DOMContentLoaded', fn);
   }
 
-  
-
   }
 
 goToTakeSelfiePage(){
