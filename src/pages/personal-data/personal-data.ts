@@ -11,16 +11,23 @@ export class PersonalDataPage {
 
   constructor(public navCtrl: NavController) {
 
-    function ready(fn) {
-      document.addEventListener('DOMContentLoaded', fn);
-    }
+  function ready(fn) {
+    document.addEventListener('DOMContentLoaded', fn);
+  }
 
-    
+  
+
   }
 
 goToTakeSelfiePage(){
     this.navCtrl.push(TakeSelfiePage)
   }
+
+
+
+
+
+
 
 
 
