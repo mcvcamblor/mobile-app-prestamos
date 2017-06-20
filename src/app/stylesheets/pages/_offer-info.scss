@@ -12,14 +12,12 @@
   background-color: $secondary-color;
 }
 
-.infoBox{
-  display:flex;
-  justify-content: center;
-}
 
 .infoBox-content{
   display: flex;
   flex-direction: row;
+  display:flex;
+  justify-content: center;
 }
 
 .linkInfo{
