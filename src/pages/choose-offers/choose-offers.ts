@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TakeSignPage} from '../take-sign/take-sign';
-import { NavController } from 'ionic-angular';
+import { ModalSeeMorePage} from '../modal-see-more/modal-see-more';
+import { NavController, ModalController } from 'ionic-angular';
 
 
 @Component({
@@ -11,10 +12,16 @@ export class ChooseOffersPage {
 
 
 
-  constructor(public navCtrl: NavController) {
+  constructor(private navCtrl: NavController, private modal: ModalController) {
 
   }
   goToTakeSignPage() {
     this.navCtrl.push(TakeSignPage)
   }
+
+  openModal() {
+   const mobileAppPrestamos = this.modal.create('ModalSeeMorePage');
+   mobileAppPrestamos.present();
+
+ }
 }
