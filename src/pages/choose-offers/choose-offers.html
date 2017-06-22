@@ -4,12 +4,13 @@
   </div>
 </ion-header>
 
-<ion-content class="content-middle" padding>
-  <p class="txt-lg main-titles">Your offers</p>
+<ion-content class="content-middle bck-offers" padding>
+  <p class="txt-md main-titles">Your offers</p>
 
 <div class="info-box-style">
   <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
   </p>
 </div>
 
@@ -26,18 +27,18 @@
         <p>Plazo: 6 meses</p>
         <p>TOTAL: 828€</p>
         <!-- linea -->
+        <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
+        <a class="details-text" href="#" (click)="openModal()">More details</a>
         <div class="details-offers">
           <ion-icon (click)="openModalcheck()" item-end="" large="" name="checkmark" role="img" class="icon icon-md ion-md-checkmark item-icon" aria-label="checkmark" ng-reflect-name="checkmark"></ion-icon>
         </div>
-        <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
-        <a href="#" (click)="openModal()">See more details</a>
       </ion-card-content>
     </ion-card>
 
     <ion-card class="container-lend">
     <ion-card-header class="card-header">
-      <ion-icon class="icon-color" name="md-alarm"></ion-icon>
-      <p>Lender 2</p>
+      <ion-icon class="icon-color" name="logo-euro"></ion-icon>
+      <p>Lender 1</p>
     </ion-card-header>
     <ion-card-content>
       <p>Cuota: 138€</p>
@@ -45,13 +46,13 @@
       <p>Plazo: 6 meses</p>
       <p>TOTAL: 828€</p>
       <!-- linea -->
+      <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
+      <a class="details-text" href="#" (click)="openModal()">More details</a>
       <div class="details-offers">
         <ion-icon (click)="openModalcheck()" item-end="" large="" name="checkmark" role="img" class="icon icon-md ion-md-checkmark item-icon" aria-label="checkmark" ng-reflect-name="checkmark"></ion-icon>
       </div>
-      <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
-      <a href="#" (click)="openModal()">See more details</a>
     </ion-card-content>
-    </ion-card>
+  </ion-card>
 
 </div>
 
@@ -67,19 +68,20 @@
       <p>TAE: 10%</p>
       <p>Plazo: 6 meses</p>
       <p>TOTAL: 828€</p>
-      <!-- linea -->
-        <div class="details-offers">
-          <ion-icon (click)="openModalcheck()" item-end="" large="" name="checkmark" role="img" class="icon icon-md ion-md-checkmark item-icon" aria-label="checkmark" ng-reflect-name="checkmark"></ion-icon>
-        </div>
-        <ion-icon class="icon-color" name="md-information-circle" item-end></ion-icon>
-        <a href="#" (click)="openModal()">See more details</a>
+
+      <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
+      <a class="details-text" href="#" (click)="openModal()">More details</a>
+      <div class="details-offers">
+        <ion-icon (click)="openModalcheck()" item-end="" large="" name="checkmark" role="img" class="icon icon-md ion-md-checkmark item-icon" aria-label="checkmark" ng-reflect-name="checkmark"></ion-icon>
+      </div>
+
     </ion-card-content>
     </ion-card>
 
     <ion-card class="container-lend">
-    <ion-card-header class="card-header">
-      <ion-icon class="icon-color" name="md-alarm"></ion-icon>
-      <p>Lender 4</p>
+    <ion-card-header >
+      <ion-icon class="icon-color" name="logo-euro"></ion-icon>
+      <p>Lender 3</p>
     </ion-card-header>
     <ion-card-content>
       <p>Cuota: 138€</p>
@@ -87,22 +89,13 @@
       <p>Plazo: 6 meses</p>
       <p>TOTAL: 828€</p>
       <!-- linea -->
+      <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
+      <a class="details-text" href="#" (click)="openModal()">More details</a>
       <div class="details-offers">
         <ion-icon (click)="openModalcheck()" item-end="" large="" name="checkmark" role="img" class="icon icon-md ion-md-checkmark item-icon" aria-label="checkmark" ng-reflect-name="checkmark"></ion-icon>
       </div>
-      <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
-      <a href="#" (click)="openModal()">See more details</a>
     </ion-card-content>
     </ion-card>
     </div>
 
-
-
 </ion-content>
-
-<ion-footer>
-  <button class="footer" ion-button (click)="goToTakeSignPage()" icon-rightcolor="royal">
-        <p class="txt-sm">I accept give Kubide access to collect more info</p>
-        <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
-      </button>
-</ion-footer>
