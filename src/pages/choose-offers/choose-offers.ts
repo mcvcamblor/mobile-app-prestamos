@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { TakeSignPage} from '../take-sign/take-sign';
-
 import { NavController, ModalController } from 'ionic-angular';
 
 
