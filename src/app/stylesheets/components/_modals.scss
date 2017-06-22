@@ -1,15 +1,19 @@
 .modal-content{
-  padding: 3vh;
-  line-height: 1.571;
+  // padding: 3vh;
+  padding: 3.5vh;
+  // line-height: 1.571;
+  line-height: 1.57;
   border-bottom: 1px solid $footer-color;
   background-color: $secondary-color;
 }
 
 .modal-content-check{
-  padding: 3vh;
-  line-height: 1.44;
+  // padding: 3vh;
+  padding: 3.4vh;
+  // line-height: 1.44;
+  line-height: 1.49;
   border-bottom: 1px solid $footer-color;
-  background-color: $secondary-color
+  background-color: $secondary-color;
 }
 
 .modal-container{
@@ -22,7 +26,6 @@
 
 .modal-wrapper {
   height: 39.5%;
-  // height: auto;
   width: 90%;
   margin: 40% 5% 0% 5%;
 }
@@ -31,7 +34,6 @@
   overflow-x: hidden;
   overflow-y: inherit;
   padding: 0;
-  // background-color: $secondary-color;
 }
 
 ion-modal {
@@ -44,4 +46,42 @@ ion-modal {
 
 ion-backdrop {
   background-color: $primary-color-transparent;
+}
+
+.ios-close {
+    color: $footer-color;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2em;
+  }
+
+  .lender-modal{
+    border-bottom: 2px solid $info-color;
+    padding-bottom: 3vh;
+  }
+
+  .content-modal-see-more{
+    display: flex;
+    flex-direction: column;
+
+    .modal-wrapper{
+      height: 100%;
+      width: 100%;
+    }
+
+    .scroll-content{
+      height: 100%;
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: inherit;
+      padding: 0;
+    }
+  }
+
+  .offer-modal{
+
+  }
+
+.justify-title-modal{
+  text-align: left;
 }
