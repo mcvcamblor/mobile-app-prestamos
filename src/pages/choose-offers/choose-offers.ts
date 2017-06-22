@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TakeSignPage} from '../take-sign/take-sign';
 import { ModalSeeMorePage} from '../modal-see-more/modal-see-more';
+import { ModalcheckPage} from '../modalcheck/modalcheck';
 import { NavController, ModalController } from 'ionic-angular';
 
 
@@ -24,4 +25,10 @@ export class ChooseOffersPage {
    mobileAppPrestamos.present();
 
  }
+
+ openModalcheck() {
+  const mobileAppPrestamos = this.modal.create('ModalcheckPage');
+  mobileAppPrestamos.present();
+
+}
 }
