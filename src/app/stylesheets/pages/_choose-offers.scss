@@ -18,3 +18,13 @@
   text-align: center;
   width: 100%;
 }
+
+.details-offers {
+  justify-content: center;
+  text-align: center;
+}
+
+.ion-md-checkmark:before {
+  color: $footer-color;
+  content: '\f2bc';
+}

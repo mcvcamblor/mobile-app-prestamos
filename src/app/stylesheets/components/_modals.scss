@@ -1,0 +1,46 @@
+.modal-content{
+  padding: 3vh;
+  line-height: 1.571;
+  border-bottom: 1px solid $footer-color;
+  background-color: $secondary-color;
+}
+
+.modal-content-check{
+  padding: 3vh;
+  line-height: 1.44;
+  border-bottom: 1px solid $footer-color;
+  background-color: $secondary-color
+}
+
+.modal-container{
+  width: 100%;
+}
+
+.modal-container-check{
+  width: 100%;
+}
+
+.modal-wrapper {
+  height: 39.5%;
+  // height: auto;
+  width: 90%;
+  margin: 40% 5% 0% 5%;
+}
+
+.scroll-content{
+  overflow-x: hidden;
+  overflow-y: inherit;
+  padding: 0;
+}
+
+ion-modal {
+  background-color: $primary-color-transparent;
+}
+
+.title-modal{
+  padding-bottom: 13px;
+}
+
+ion-backdrop {
+  background-color: $primary-color-transparent;
+}

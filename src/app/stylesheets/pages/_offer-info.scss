@@ -24,50 +24,9 @@
   text-decoration: none;
 }
 
-.moreInfo{
-  // width: 30%;
-}
-
-.noInfo{
-  // width: 30%;
-}
 
 .rowInfo {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-}
-
-//CSS MODAL//
-
-.modal-content{
-
-}
-
-.modal-container{
-  width: 100%;
-
-}
-
-.modal-wrapper {
-  height: 40%;
-  width: 90%;
-  margin: 40% 5% 0% 5%;
-  // overflow: hidden;
-}
-
-.scroll-content{
-  overflow-x: hidden;
-  overflow-y: inherit;
-  padding: 0;
-}
-
-ion-modal {
-  background-color: $primary-color-transparent;
-  // background-color: green;
-}
-
-ion-backdrop {
-  background-color: $primary-color-transparent;
-  // background-color: green;
 }
