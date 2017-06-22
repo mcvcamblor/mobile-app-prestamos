@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
 .ios-close-grey {
   background-color: $background-color-buttons-cross;
   border-radius: 3em;
@@ -22,10 +23,21 @@
   }
 }
 
-.button-modal{
-  height: 50%;
+.button-modal {
   display: flex;
   justify-content: space-around;
-  background-color: pink;
-  width: 50%;
+  background-color: $secondary-color;
+  width: 100%;
+
+  .btn-modal {
+    background-color: $secondary-color;
+    color: $footer-color;
+    height: 10vh;
+    width: 50%;
+
+    &:hover {
+      background-color: $footer-color;
+      color: $secondary-color;
+    }
+  }
 }
