@@ -9,9 +9,10 @@
   <p class="txt-md main-titles">Take a selfie</p>
   <div class="extra-info-selfie info-box-style">
     <ion-icon class="icon-color" name="ios-information-circle"></ion-icon>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-    <!-- CUADRADO DE SELFIE -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore.</p>
+  </div>
+
     <div class="selfie">
       <div class="selfie-container">
         <div class="ios-close-grey"><ion-icon class="ios-close" name="ios-close"></ion-icon>
@@ -19,11 +20,11 @@
     </div>
     </div>
 
-    <div class="img-slide">
-      <img class="img-slide-icon" src="../assets/slide2.png">
+    <div class="slides">
+        <img src="assets/images/slide2.png" alt="">
     </div>
 
-    <button class="footer" ion-button block (click)="getPicture()">Toma una foto</button>
+    <button class="footer" ion-button block (click)="getPicture()">Take a selfie</button>
       <img [src]="image" *ngIf="image" />
 
 </ion-content>

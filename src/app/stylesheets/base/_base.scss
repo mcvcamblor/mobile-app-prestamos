@@ -19,6 +19,10 @@
 
 .info-box-style {
   display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  // text-align: center;
 }
 
 .confirmeItem {
@@ -37,13 +41,22 @@
 }
 
 .main-titles{
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
+  justify-content: center;
 }
 
-// .slides {
-//   align-items: center;
-//   bottom: 70px;
-//   left: 0;
-//   position: fixed;
-//   width: 100%;
-// }
+.slides {
+  align-items: center;
+  bottom: 60px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+
+  img {
+    width: 10%;
+  }
+}

@@ -14,10 +14,11 @@
           <div class="colInfo">
             <ion-icon class="icon-color" name="md-information-circle"></ion-icon>
           </div>
-          <div class="colInfo">
-            <p class="txt-xs">To give you the best lead we need to collect more information about you...</p>
-            <p class="txt-xs">This step is not necessary, but will help us.</p>
+          <div class="colInfo info-box-style">
+            <p class="txt-xs parag-text">To give you the best lead we need to collect more information about you...</p>
+            <p class="txt-xs parag-text">This step is not necessary, but will help us.</p>
           </div>
+
         </div>
       </div>
     </div>
@@ -60,23 +61,21 @@
     </div>
   </div>
 
-
-
-
-  <div class="img-slide">
-    <img class="img-slide-icon" src="../assets/slide3.png">
+  <div class="avoid-text">
+    <a item-end href="#" (click)="openModal()">Avoid this step</a>
   </div>
 
+    <div class="slides">
+        <img src="assets/images/slide3.png" alt="">
+    </div>
 
-  <a href="#" (click)="openModal()">Avoid this step</a>
 
 </ion-content>
 
 <ion-footer>
   <button class="footer" ion-button (click)="goToUndefinedPagePage()" icon-rightcolor="royal">
     <div class="">
-      <p class="txt-sm">I accept give Kubide access to collect more info</p>
-      <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
+      <p class="txt-xs">I accept give Kubide access to collect more info</p>
     </div>
   </button>
 </ion-footer>

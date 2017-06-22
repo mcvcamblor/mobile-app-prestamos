@@ -1,9 +1,13 @@
 .container-lend {
   width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .container-lenders-box {
   display: flex;
+  align-items: baseline;
 }
 
 .card-header {
@@ -27,4 +31,12 @@
 .ion-md-checkmark:before {
   color: $footer-color;
   content: '\f2bc';
+}
+
+.bck-offers {
+  background-color: $primary-color;
+}
+
+.details-text {
+  font-size: 10px;
 }
