@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { TakeSignPage} from '../take-sign/take-sign';
-import { ModalSeeMorePage} from '../modal-see-more/modal-see-more';
-import { ModalcheckPage} from '../modalcheck/modalcheck';
+
 import { NavController, ModalController } from 'ionic-angular';
 
 

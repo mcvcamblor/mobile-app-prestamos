@@ -23,6 +23,9 @@
       <img class="img-slide-icon" src="../assets/slide2.png">
     </div>
 
+    <button class="footer" ion-button block (click)="getPicture()">Toma una foto</button>
+      <img [src]="image" *ngIf="image" />
+
 </ion-content>
 
 <ion-footer>
